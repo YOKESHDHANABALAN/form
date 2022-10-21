@@ -41,7 +41,7 @@ if (!empty($fname) || !empty($lname) || !empty($uname) || !empty($email) || !emp
         if ($rnum == 0) {
             $stmt->close();
             $stmt = $conn->prepare($INSERT);
-            $stmt->bind_param("ssssss", $fname, $lname, $uname1, $email, $upswd1, $upswd2);
+            $stmt->bind_param("ssssss", $fname, $lname, $uname, $email, $upswd1, $upswd2);
             $stmt->execute();
             echo "New record inserted sucessfully, move to login page";
         } else {
