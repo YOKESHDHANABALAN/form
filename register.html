@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register for new-user</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/register.js"></script>
+</head>
+<body>
+    <div class="box">
+    
+            <h1>REGISTER</h1>
+    
+            <form name="myform2" action="php/register.php" method="POST">
+                <form name="myform2" onsubmit="return vfun1()">
+
+                <p>Firstname</p>
+                <input type="text" name="fname" placeholder="Enter Firstname" required="">
+
+                <p>Lastname</p>
+                <input type="text" name="lname" placeholder="Enter Lastname" required="">
+    
+                <p>Username</p>
+                <input type="text" name="uname" placeholder="Enter Username" required="">
+    
+                <p>Email</p>
+                <input type="Email" name="email" placeholder="Enter email id" required="">
+    
+                <p>Password</p>
+                <input type="password" name="upswd1" placeholder="Enter Password" required="">
+    
+                <p>Re-confirm Password</p>
+                <input type="password" name="upswd2" placeholder="Re-Enter Password" required="">
+    
+                <input type="submit" name="" value="Register">
+    
+                <br><br>
+                <a href="login.html">existing user, login !?</a>
+            </form>
+            </form>
+            
+        </div>
+</body>
+</html>
