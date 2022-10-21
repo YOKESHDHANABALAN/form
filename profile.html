@@ -10,7 +10,8 @@
 <body>
     <div class="box">
         <h1>My profile</h1>
-    <form>
+    <form name="myform3"  action="/php/profile.php" method="POST">
+        <form name="myform3" onsubmit="return vfun3()">
         <h3>Nick Name</h3>
         <input type="text" name="nickname" placeholder="enter nickname"><br>
         <h3>Contact</h3>
@@ -36,6 +37,7 @@
             <input type="text" name="uyear" placeholder="year"><br>
         </select>
         <input type="submit" value = "Submit">
+      <form>
     </form>
 </div>
 </body>
